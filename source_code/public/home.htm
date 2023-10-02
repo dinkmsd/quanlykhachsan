@@ -1,0 +1,251 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Guidelines Vietnam</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+<link rel="shortcut icon" href="" type="image/x-icon" /> 
+<!-- STYLE -->
+<link rel="stylesheet" type="text/css" href="home.css" media="screen" />    
+
+<!-- SCRIPT -->
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+<script type="text/javascript" src="js/coin-slider.min.js"></script>
+<script src="js/galleria-1.2.6.min.js"></script>
+<link rel="stylesheet" href="coin-slider-styles.css" type="text/css" />
+<script type="text/javascript" charset="utf-8">
+   $(document).ready(function() {
+		$('#coinSlider').coinslider({
+				width: 960, // width of slider panel
+				height: 400, // height of slider panel
+				spw: 8, // squares per width
+				sph: 6, // squares per height
+				delay: 3000, // delay between images in ms
+				sDelay: 30, // delay beetwen squares in ms
+				opacity: 0.70, // opacity of title and navigation
+				titleSpeed: 500, // speed of title appereance in ms
+				effect: '', // random, swirl, rain, straight
+				navigation: true, // prev next and buttons
+				links : true, // show images as links
+				hoverPause: true // pause on hover
+			
+			});
+				
+			//Focus textbox
+			$('.inputLabel').each(function(){
+				this.value = $(this).attr('title');
+				$(this).focus(function(){
+				if(this.value == $(this).attr('title')) {
+				this.value = '';
+				}
+				});
+				$(this).blur(function(){
+				if(this.value == '') {
+				this.value = $(this).attr('title');
+				}
+			});
+		});
+	});
+		
+</script>
+<link rel="stylesheet" href="menu/queryslidemenu.css" type="text/css" />
+<script type="text/javascript" src="menu/jqueryslidemenu.js"></script>
+</head>
+<body>
+<div class="all">
+        <!--HEADER-->
+        <div class="header">
+            <div class="logo"><a href="#"><img src="images/logo.png" alt="photo" /></a></div>
+            <!--Quang cao canh logo-->
+            
+        </div>
+        
+        <!--MENU-->
+        <div id="myslidemenu" class="jqueryslidemenu headerMenu">
+            <ul class="topMenu">
+                <li><a href="#">Trang chủ</a></li>
+                <li><a href="#">Buồng phòng</a></li>
+                <li><a href="#">Thư viện</a></li>
+                <li><a href="#">Liên hệ</a></li>
+                <li id="phai"><a href="#">Đăng nhập tài khoản</a></li>
+            </ul>
+		</div>
+        <div class="content">
+        <!--MAIN-->
+            <div class="bigBanner" id="coinSlider">
+                <a href="img/img01.jpg" target="_blank">
+                    <img src="img/img01.jpg" alt="photo" />
+                    <span>&nbsp;</span>
+
+                </a>
+                <a href="img/img02.jpg">
+                     <img src="img/img02.jpg" alt="photo" />
+                    <span>&nbsp;</span>
+                </a>
+                <a href="img/img03.jpg">
+                     <img src="img/img03.jpg" alt="photo" />
+                    <span>&nbsp;</span>
+                </a>
+                <a href="img/img05.jpg">
+                     <img src="img/img05.jpg" alt="photo" />
+                    <span>&nbsp;</span>
+                </a>
+            </div>
+            <div class="bigBannerFooter"></div>
+            
+        <!--LEFT-->
+        <div class="colLeft fl">
+        	<div class="homeIntro bottomBorder">
+            	<h2><img src="images/introTitle.png" /></h2>
+                <p><b>Kính mời Quý khách đến với khách sạn Luxury Hotel Nam Định.</b></p>
+                <br/>
+                <center>
+                <img src="img/img10.jpg" />
+                </center>
+                <p><b>Kính mời Quý khách đến với khách sạn Luxury Hotel Nam Định. Được xây dựng ngay thành phố Nam Định, khách sạn Luxury Hotel Nam Định tự hào là một trong những khách sạn lớn và đẳng cấp hàng đầu trong khu vực. Với một vị trí đẹp và kiến trúc hiện đại sang trọng, khách sạn luôn mong muốn mang đến cho Quý khách hàng sự thoải mái và vui vẻ đến tuyệt vời. Cùng với tiện nghi đầy đủ và đội ngũ nhân viên tươi trẻ năng động phục vụ nhiệt tình chu đáo là đội ngũ đầu bếp giỏi chắc chắn sẽ luôn mang đến cho Quý khách hàng niềm vui trọn vẹn...</b></p>
+            </div>
+            <h2 class="bigTitle">Buồng phòng</h2>
+            <div style="width:600px" class="bottomBorder">
+            	<div class="homeProductItem">
+                    <div class="homeProductImage">
+                        <a href="#"><img src="img/img10.jpg" /></a>
+                    </div>
+                    <div class="homeProductInfo">
+                        <a href="#">Phòng thường 1 giường đôi</a>
+                        <div class="priceTag">300,000</div>
+                        <p>Căn phòng có diện tích 70m2 với một giường đôi rộng 2,2m...</p>
+                    </div>
+                </div>
+                
+            	<div class="homeProductItem">
+                    <div class="homeProductImage">
+                        <a href="#"><img src="img/img03.jpg" /></a>
+                    </div>
+                    <div class="homeProductInfo">
+                        <a href="#">Phòng thường 1 giường đôi</a>
+                        <div class="priceTag">300,000</div>
+                        <p>Căn phòng có diện tích 70m2 với một giường đôi rộng 2,2m...</p>
+                    </div>
+                </div>
+                
+            </div>
+            
+        </div>
+        
+        <!--RIGHT-->
+        <div class="colRight fr">
+        	<div class="bookingFormOutline">
+                <div class="bookingForm">
+                    <h2 class="bookingFormTitle">Đặt phòng trực tuyến</h2>
+                    <ul class="bookingFormContent">
+                    	<li>
+                        	<label>Ngày đến:</label>
+                            <input type="text" name="" placeholder="22/12/2016"/>
+                        </li>
+                    	<li>
+                        	<label>Ngày đi:</label>
+                            <input type="text" name="" placeholder="30/12/2016"/>
+                        </li>
+                    	<li>
+                        	<label>Số người:</label>
+                            <input type="number" min="1" style="width:60px; margin:0 10px 0;"/>
+                             
+                        	<label>Số phòng:</label>
+                            <input type="number" min="1" style="width:55px;">
+                               
+                        </li>
+                    	<li>
+                        	<label>Loại phòng:</label>
+                            <select style="width:220px;">
+                                <option>0</option>
+                            </select>
+                        </li>
+                    	<li>
+                        	<label>Họ tên:</label>
+                            <input class="" type="text" value="" id="" name="">
+                        </li>
+                    	<li>
+                        	<label>Điện thoại:</label>
+                            <input class="" type="text" value="" id="" name="">
+                        </li>
+                    	<li>
+                        	<label>Email:</label>
+                            <input class="" type="text" value="" id="" name="">
+                        </li>
+                         <li>
+                        	<label class="fl">Thông tin thêm:</label>
+                            <textarea style="width:228px;"></textarea>
+                        </li> 
+                    	<li>
+                        	<label>&nbsp;</label>
+                            <input  type="submit" value="Đặt phòng" id="" name="">
+                        </li>
+                          
+                       
+                    </ul>
+                </div>
+            </div>
+            <h2 class="bigTitle">Bảng giá</h2>
+            <div class="priceTable">
+            <table border="0" cellpadding="0" cellspacing="0">
+            	<col width="50%" /><col width="25%" /><col width="25%" />
+            	<tr>
+                	<th>Phòng nghỉ</th>
+                	<th>Giá (VNĐ)</th>
+                	<th>Thời gian</th>
+                </tr>
+                <tr>
+                	<td>Phòng thường 1 giường đôi</td>
+                	<td>300,000</td>
+                	<td>Ngày</td>
+                </tr>
+                <tr>
+                	<td>Phòng thường 2 giường đơn</td>
+                	<td>350,000</td>
+                	<td>Ngày</td>
+                </tr>
+                <tr>
+                	<td>Phòng víp 1 giường đôi</td>
+                	<td>350,000</td>
+                	<td>Ngày</td>
+                </tr>
+                <tr>
+                	<td>Phòng víp 2 giường đơn</td>
+                	<td>400,000</td>
+                	<td>Ngày</td>
+                </tr>
+                <tr>
+                	<td>Phòng gia đình 1 giường đôi, 1 giường đơn</td>
+                	<td>400,000</td>
+                	<td>Ngày</td>
+                </tr>
+                
+            </table></div>
+            <div class="supportOnline">
+            	<h2 class="bigTitle">Hỗ trợ trực tuyến</h2>
+                <div class="supportInfo fl">
+                    <b>Tư vấn đặt phòng</a></b>
+                    <p>0977 167 006</p>
+                    <a href="ymsgr:sendim?o0o_nhocconvn_o0o" rel="nofollow">
+                        <img src="http://opi.yahoo.com/online?u=tlhctthuy&amp;m=g&amp;t=2">
+                    </a>
+                </div>
+                <div class="supportInfo fr">
+                    <b>Tư vấn đặt phòng</a></b>
+                    <p>0977 167 006</p>
+                    <a href="ymsgr:sendim?o0o_nhocconvn_o0o" rel="nofollow">
+                        <img src="http://opi.yahoo.com/online?u=tlhctthuy&amp;m=g&amp;t=2">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="clr"></div>
+</div>
+</div>        <!--FOOTER-->
+        <div class="footer">
+        		
+            	© 2012 <a href="#">Luxury Hotel Nam Định</a><br />
+                Địa chỉ: adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet<br />
+                Hotline: +84 (0) 932.126.086 - Email: luxuryhotelnamdinh@gmail.com
+        </div>
+</body>
+</html>
